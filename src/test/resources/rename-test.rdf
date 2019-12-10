@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:dcat="http://www.w3.org/ns/dcat#"
+  xmlns:dct="http://purl.org/dc/terms/"
+  xmlns:schema="http://schema.org/"
+  xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+  xmlns:dcatde="http://dcat-ap.de/def/dcatde/1.0.1/">
+  <dcat:Dataset rdf:about="https://www.statistik.sachsen.de/genonline/online?sequenz=tabelleErgebnis&amp;selectionname=22400-053&amp;regionalschluessel=">
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-01-01T00:00:00+00:00</dct:issued>
+    <dcat:keyword>noch-keine-zuordnung</dcat:keyword>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-04-03T13:48:52.345345</dct:modified>
+    <dcat:distribution>
+      <dcat:Distribution rdf:about="https://www.statistik.sachsen.de/genonline/online?sequenz=tabelleDownload&amp;selectionname=22400-053&amp;regionalschluessel=&amp;format=csv">
+        <dct:description>CSV-Datei der Tabelle '22400-053'</dct:description>
+        <dct:license rdf:resource="http://dcat-ap.de/def/licenses/dl-by-de/2_0"/>
+        <dct:language>http://publications.europa.eu/resource/authority/language/DEU</dct:language>
+        <dcat:accessURL rdf:resource="https://www.statistik.sachsen.de/genonline/online?sequenz=tabelleDownload&amp;selectionname=22400-053&amp;regionalschluessel=&amp;format=csv"/>
+        <dcatde:licenseAttributionByText>Quelle Statistisches Landesamt des Freistaates Sachsen</dcatde:licenseAttributionByText>
+        <dct:format>CSV</dct:format>
+      </dcat:Distribution>
+    </dcat:distribution>
+    <dcat:keyword>pflegestufe-ii</dcat:keyword>
+    <dct:publisher>
+      <foaf:Organization rdf:about="https://ckan.govdata.de/organization/7e64af12-4df7-49b9-8949-dc846632bcf5">
+        <foaf:name>Freistaat Sachsen</foaf:name>
+      </foaf:Organization>
+    </dct:publisher>
+    <dcat:keyword>pflegestufe-i</dcat:keyword>
+    <dcat:contactPoint>
+      <vcard:Organization rdf:nodeID="N5f610054ff614486b5fd48604a9fca83">
+        <vcard:fn>Statistisches Landesamt des Freistaates Sachsen</vcard:fn>
+        <vcard:hasEmail rdf:resource="mailto:genesis@statistik.sachsen.de"/>
+      </vcard:Organization>
+    </dcat:contactPoint>
+    <dct:temporal>
+      <dct:PeriodOfTime rdf:nodeID="Nd32e7e26ec8e4884800a0bb775544a5c">
+        <schema:endDate>unknown</schema:endDate>
+        <schema:startDate>unknown</schema:startDate>
+      </dct:PeriodOfTime>
+    </dct:temporal>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
+    <dct:title>Pflege: Lestungsempfänger der PV (ab 2009), Geschlecht, Altersgruppen, Grad der Pflegebedürftigkeit - Sachsen - Stichmonat</dct:title>
+    <dcat:distribution>
+      <dcat:Distribution rdf:about="https://ckan.govdata.de/dataset/7419cf12-98cc-59b7-ba52-11c5a58605b1/resource/c53407de-492c-49ef-a172-bac60280a9b3">
+        <dct:language>http://publications.europa.eu/resource/authority/language/DEU</dct:language>
+        <dct:format>XLSX</dct:format>
+        <dcat:accessURL rdf:resource="https://www.statistik.sachsen.de/genonline/online?sequenz=tabelleDownload&amp;selectionname=22400-053&amp;regionalschluessel=&amp;format=xlsx"/>
+        <dct:license rdf:resource="http://dcat-ap.de/def/licenses/dl-by-de/2_0"/>
+        <dcatde:licenseAttributionByText>Quelle Statistisches Landesamt des Freistaates Sachsen</dcatde:licenseAttributionByText>
+        <dct:description>XLSX-Datei der Tabelle '22400-053'</dct:description>
+      </dcat:Distribution>
+    </dcat:distribution>
+    <dct:creator>
+      <foaf:Organization rdf:nodeID="N6f64952a9bdd4a71aef4ba495265d0a8">
+        <foaf:name>Statistisches Landesamt des Freistaates Sachsen</foaf:name>
+        <foaf:mbox>mailto:genesis@statistik.sachsen.de</foaf:mbox>
+        <foaf:homepage rdf:resource="https://www.statistik.sachsen.de"/>
+      </foaf:Organization>
+    </dct:creator>
+    <dct:identifier>https://www.statistik.sachsen.de/genonline/online?sequenz=tabelleErgebnis&amp;selectionname=22400-053&amp;regionalschluessel=</dct:identifier>
+    <dcatde:politicalGeocodingLevelURI rdf:resource="http://dcat-ap.de/def/politicalGeocoding/Level/state"/>
+    <dcat:keyword>freistaat_sachsen</dcat:keyword>
+    <dcat:keyword>pflegestufe-iii-ohne-härtefälle</dcat:keyword>
+    <dcatde:maintainer>
+      <foaf:Organization rdf:nodeID="N9e27a21a16bd4b5aad6c4b3226eb89db">
+        <foaf:name>Statistisches Landesamt des Freistaates Sachsen</foaf:name>
+        <foaf:mbox>mailto:genesis@statistik.sachsen.de</foaf:mbox>
+      </foaf:Organization>
+    </dcatde:maintainer>
+    <dct:description>Pflege: Lestungsempfänger der PV (ab 2009), Geschlecht, Altersgruppen, Grad der Pflegebedürftigkeit - Sachsen - Stichmonat</dct:description>
+    <dcat:keyword>pflegestufe-iii-härtefall</dcat:keyword>
+    <dcat:landingPage rdf:resource="https://www.statistik.sachsen.de/genonline/online?sequenz=tabelleErgebnis&amp;selectionname=22400-053&amp;regionalschluessel="/>
+    <dcatde:contributorID>http://www.statistik.sachsen.de/</dcatde:contributorID>
+  </dcat:Dataset>
+</rdf:RDF>
